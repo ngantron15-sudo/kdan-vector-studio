@@ -1,0 +1,1969 @@
+{
+  "schema": "kdan.tab_maket.stamp_font_pack.v1",
+  "generated_at_epoch": 1794686283.531,
+  "elapsed_sec": 6.935,
+  "architectural_boundary": "TAB_MAKET_TYPESETTING_AND_CURVE_EXPORT_ONLY (ZERO_TOUCH_ON_VECTOR_MAGIC_V80)",
+  "total_font_entries": 31,
+  "distinct_ofl_families": 26,
+  "css_stylesheet": {
+    "file": "css/kdan-stamp-fonts.css",
+    "bytes": 42904,
+    "sha256": "ac94336252813e5dda3377674010a1686b37858d4030779b5b151de59ae94e86"
+  },
+  "opentype_engine": {
+    "library": "opentype.js",
+    "version": "1.3.4",
+    "license": "MIT",
+    "file": "vendor/opentype.min.js",
+    "bytes": 171001,
+    "sha256": "c0f9c7ca85e18075a8819e5fe2dee6e1d535f9a2269f5314f36cce94a183adba",
+    "license_file": "licenses/opentypejs_MIT_LICENSE.txt",
+    "license_sha256": "a5b87c9bc191e7f9c06b07bd7cbbed3ed846dfdb50e859484b2c245aa1ab2e61",
+    "upstream_url": "https://raw.githubusercontent.com/opentypejs/opentype.js/1.3.4/dist/opentype.min.js",
+    "sa06_zero_malware_clean": true
+  },
+  "ofl_licenses": {
+    "bevietnampro": {
+      "file": "licenses/bevietnampro_OFL.txt",
+      "bytes": 4397,
+      "sha256": "6b7f8f73609a25ea78c891e34cf37b06f8a676b7ea986e941e43b009110f2a85",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bevietnampro/OFL.txt"
+    },
+    "archivonarrow": {
+      "file": "licenses/archivonarrow_OFL.txt",
+      "bytes": 4495,
+      "sha256": "b2087ef3fb91248e346600d19021249152a9688efea72905aa1996bb16a4c8de",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivonarrow/OFL.txt"
+    },
+    "alexbrush": {
+      "file": "licenses/alexbrush_OFL.txt",
+      "bytes": 4489,
+      "sha256": "0ee34ce7c99b0deb7f7332bca0a4950d3796c23c00de77ada8aa29a4b55ff2c2",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/alexbrush/OFL.txt"
+    },
+    "anton": {
+      "file": "licenses/anton_OFL.txt",
+      "bytes": 4484,
+      "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/OFL.txt"
+    },
+    "birthstone": {
+      "file": "licenses/birthstone_OFL.txt",
+      "bytes": 4486,
+      "sha256": "ae70628cbdffc3f7178e05a6c5ef0f94253e72eaa9c4bf109d50187151d16b12",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/birthstone/OFL.txt"
+    },
+    "allura": {
+      "file": "licenses/allura_OFL.txt",
+      "bytes": 4478,
+      "sha256": "c8cb4c94a558b6cb82ac5dc981a73a0b8aee35a5c52c8a7832fc0280c289ad49",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/allura/OFL.txt"
+    },
+    "barlowcondensed": {
+      "file": "licenses/barlowcondensed_OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt"
+    },
+    "charm": {
+      "file": "licenses/charm_OFL.txt",
+      "bytes": 4383,
+      "sha256": "41423e9e1d0ea79d0e78bd5fe9e0b27f4c23140706f5dfbfe116839c83aae91c",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/charm/OFL.txt"
+    },
+    "ebgaramond": {
+      "file": "licenses/ebgaramond_OFL.txt",
+      "bytes": 4398,
+      "sha256": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/OFL.txt"
+    },
+    "dancingscript": {
+      "file": "licenses/dancingscript_OFL.txt",
+      "bytes": 4443,
+      "sha256": "6f090277c00af96651ce6dbcc38ff1591047a3bffef486e80b6a32e8276a8201",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dancingscript/OFL.txt"
+    },
+    "corinthia": {
+      "file": "licenses/corinthia_OFL.txt",
+      "bytes": 4484,
+      "sha256": "93c4a947d0c82b6838675aeb6090b7e9e7534b9655b2aeec1874149290a58bbf",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/corinthia/OFL.txt"
+    },
+    "cormorantgaramond": {
+      "file": "licenses/cormorantgaramond_OFL.txt",
+      "bytes": 4387,
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt"
+    },
+    "imperialscript": {
+      "file": "licenses/imperialscript_OFL.txt",
+      "bytes": 4404,
+      "sha256": "42b758018a3f0fa429f9aaf7cafaa273ce922ea7dfba30f50cc828b8aa3e1717",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/imperialscript/OFL.txt"
+    },
+    "greatvibes": {
+      "file": "licenses/greatvibes_OFL.txt",
+      "bytes": 4399,
+      "sha256": "61093a21f5e63dedf54222b3c09997e54c0fe43e3851d21386e02ddcbc246d49",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/greatvibes/OFL.txt"
+    },
+    "bitter": {
+      "file": "licenses/bitter_OFL.txt",
+      "bytes": 4424,
+      "sha256": "152a1e283e23b42c4940da4c72f2f5bebaa17969cb77c76d7af05903846006f1",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/OFL.txt"
+    },
+    "italianno": {
+      "file": "licenses/italianno_OFL.txt",
+      "bytes": 4483,
+      "sha256": "bce79721f0203586872bbd7016922baf449980bdd1c44550a821112a3b547185",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/italianno/OFL.txt"
+    },
+    "lora": {
+      "file": "licenses/lora_OFL.txt",
+      "bytes": 4423,
+      "sha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/OFL.txt"
+    },
+    "notoserif": {
+      "file": "licenses/notoserif_OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserif/OFL.txt"
+    },
+    "montserrat": {
+      "file": "licenses/montserrat_OFL.txt",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/OFL.txt"
+    },
+    "oswald": {
+      "file": "licenses/oswald_OFL.txt",
+      "bytes": 4483,
+      "sha256": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/oswald/OFL.txt"
+    },
+    "playwritevn": {
+      "file": "licenses/playwritevn_OFL.txt",
+      "bytes": 4393,
+      "sha256": "0370f5946020846b0ca65e44950d11411ea3bd3c4c0d755916470f9f96cd8cb8",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwritevn/OFL.txt"
+    },
+    "pinyonscript": {
+      "file": "licenses/pinyonscript_OFL.txt",
+      "bytes": 4384,
+      "sha256": "61d07cb0eaa943943648df2b11d0c2210e772053c192871e13f680b53fe0b77e",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/pinyonscript/OFL.txt"
+    },
+    "playfairdisplay": {
+      "file": "licenses/playfairdisplay_OFL.txt",
+      "bytes": 4449,
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/OFL.txt"
+    },
+    "plusjakartasans": {
+      "file": "licenses/plusjakartasans_OFL.txt",
+      "bytes": 4402,
+      "sha256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/plusjakartasans/OFL.txt"
+    },
+    "spacemono": {
+      "file": "licenses/spacemono_OFL.txt",
+      "bytes": 4392,
+      "sha256": "8e4ee42b2553e1e01504e61cb0d46d148cd8c9e5eacaa3622a7df2d4f2955b9f",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacemono/OFL.txt"
+    },
+    "robotocondensed": {
+      "file": "licenses/robotocondensed_OFL.txt",
+      "bytes": 4393,
+      "sha256": "0e4cc6ece88573545be2ed25835363662a6182ba4a4c1b5c8feda52add30e8a6",
+      "upstream_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotocondensed/OFL.txt"
+    }
+  },
+  "fonts": [
+    {
+      "key": "great-vibes-400",
+      "family": "Great Vibes",
+      "ofl_slug": "greatvibes",
+      "weight": 400,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "VNI-Kun / VNI-Commerce",
+      "recommended_stamps": [
+        "Dấu tên cá nhân nghiêng",
+        "Dấu chữ ký Copperplate"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/greatvibes_OFL.txt",
+      "ttf_file": "fonts/ttf/great-vibes-400.ttf",
+      "ttf_bytes": 362736,
+      "ttf_sha256": "9d76b8c67f5289c310114c935c5c3831fc3c25bc2bb888a28210c1659d701b9e",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/greatvibes/v21/RWmMoKWR9v4ksMfaWd_JN-XC.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/great-vibes-400.vietnamese.woff2",
+          "bytes": 11640,
+          "sha256": "9b624180d019ee43faf972e083bf81dfafabf43234ac9e80ba2d93013f25a3d0",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/greatvibes/v21/RWmMoKWR9v4ksMfaWd_JN9XKiaQ6DQ.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/great-vibes-400.latin-ext.woff2",
+          "bytes": 66480,
+          "sha256": "b63469c752efac950ef0497a345e3823d70211b70f60d61887066a87bc3b62f3",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/greatvibes/v21/RWmMoKWR9v4ksMfaWd_JN9XLiaQ6DQ.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/great-vibes-400.latin.woff2",
+          "bytes": 42800,
+          "sha256": "c59dc73d29daf142ef2431f455d21464172374aa750d793a79d608735db2d856",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/greatvibes/v21/RWmMoKWR9v4ksMfaWd_JN9XFiaQ.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 851,
+        "descender": -401,
+        "line_gap": 0,
+        "num_glyphs": 1519,
+        "num_h_metrics": 1519,
+        "index_to_loc_fmt": 1,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "pinyon-script-400",
+      "family": "Pinyon Script",
+      "ofl_slug": "pinyonscript",
+      "weight": 400,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "VNI-Kun (nghiêng cổ điển)",
+      "recommended_stamps": [
+        "Dấu tên học hàm TS./BS.",
+        "Dấu chữ ký quý phái"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/pinyonscript_OFL.txt",
+      "ttf_file": "fonts/ttf/pinyon-script-400.ttf",
+      "ttf_bytes": 144584,
+      "ttf_sha256": "3683830e3bb3f1a2138b6098f8663ca5ceb66b1f397a4f30639aae139e344bb8",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/pinyonscript/v24/6xKpdSJbL9-e9LuoeQiDRQR8aOI.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/pinyon-script-400.vietnamese.woff2",
+          "bytes": 10700,
+          "sha256": "7b21477143c6cfd96aedc8864390d5b1c92f2684012d3e6da9eaa0aa0f11135a",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/pinyonscript/v24/6xKpdSJbL9-e9LuoeQiDRQR8WOraOrbh.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/pinyon-script-400.latin-ext.woff2",
+          "bytes": 36152,
+          "sha256": "c208ba67b4eff57e673bb188faeca3a51a6d928f8d94aca268b0a41a5deb6932",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/pinyonscript/v24/6xKpdSJbL9-e9LuoeQiDRQR8WOvaOrbh.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/pinyon-script-400.latin.woff2",
+          "bytes": 39044,
+          "sha256": "3e1f69a201572cad4aabea7ccf720f093a7dbc005380b2a1b89e0b94476d3e42",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/pinyonscript/v24/6xKpdSJbL9-e9LuoeQiDRQR8WOXaOg.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 2048,
+        "ascender": 1768,
+        "descender": -787,
+        "line_gap": 0,
+        "num_glyphs": 820,
+        "num_h_metrics": 820,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "alex-brush-400",
+      "family": "Alex Brush",
+      "ofl_slug": "alexbrush",
+      "weight": 400,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "VNI-Commerce (nét dày bền cao su)",
+      "recommended_stamps": [
+        "Dấu tên Trodat 4911 (14x38mm)",
+        "Dấu shop/thương hiệu"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/alexbrush_OFL.txt",
+      "ttf_file": "fonts/ttf/alex-brush-400.ttf",
+      "ttf_bytes": 113384,
+      "ttf_sha256": "76f8b9418a5622a65e293238f73b99a2b2697bd2d482bb0ff0edb301b20b5186",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/alexbrush/v23/SZc83FzrJKuqFbwMKk6EtUI.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/alex-brush-400.vietnamese.woff2",
+          "bytes": 9748,
+          "sha256": "1bdd4fe88ab750906481a3d5a2b9b7b8281387daf1d24b58f8f7f6e5591a893d",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/alexbrush/v23/SZc83FzrJKuqFbwMKk6EhUrz7QtO.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/alex-brush-400.latin-ext.woff2",
+          "bytes": 27328,
+          "sha256": "88678971347ba5b81af034e60f0720ef7b40b62185666f19ed582ea2d59e68b8",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/alexbrush/v23/SZc83FzrJKuqFbwMKk6EhUvz7QtO.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/alex-brush-400.latin.woff2",
+          "bytes": 33288,
+          "sha256": "461b4c649c372f274cbea95758990e3a6e98524fe7fcbab22dcd9809a1715c49",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/alexbrush/v23/SZc83FzrJKuqFbwMKk6EhUXz7Q.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 825,
+        "descender": -425,
+        "line_gap": 0,
+        "num_glyphs": 603,
+        "num_h_metrics": 603,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "allura-400",
+      "family": "Allura",
+      "ofl_slug": "allura",
+      "weight": 400,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "Vni-Park / VNI-Commerce",
+      "recommended_stamps": [
+        "Dấu tên cá nhân thanh thoát",
+        "Dấu thiệp/chữ ký"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/allura_OFL.txt",
+      "ttf_file": "fonts/ttf/allura-400.ttf",
+      "ttf_bytes": 109252,
+      "ttf_sha256": "814c49d38316cfa0c3bc629ace488ea838b72996276c523b2cdceb31f88b044c",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/allura/v23/9oRPNYsQpS4zjuAPjA.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/allura-400.vietnamese.woff2",
+          "bytes": 6828,
+          "sha256": "679f24989484dd75b414df194454962106965d91af8fe88e48b463352c4b4518",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/allura/v23/9oRPNYsQpS4zjuA_hAgWDto.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/allura-400.latin-ext.woff2",
+          "bytes": 21472,
+          "sha256": "5094d993e86782ac258413fa155652988924bb25ed83d26f61bf6d7f10fdb403",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/allura/v23/9oRPNYsQpS4zjuA_hQgWDto.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/allura-400.latin.woff2",
+          "bytes": 26488,
+          "sha256": "203583457d9c8cc90309f580dbf27a5fa9ed2893f06b8404ebb4c05e909c18e5",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/allura/v23/9oRPNYsQpS4zjuA_iwgW.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 800,
+        "descender": -450,
+        "line_gap": 0,
+        "num_glyphs": 669,
+        "num_h_metrics": 669,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "italianno-400",
+      "family": "Italianno",
+      "ofl_slug": "italianno",
+      "weight": 400,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "Vni-Park (Chancery nghiêng)",
+      "recommended_stamps": [
+        "Dấu tên Chancery thanh mảnh",
+        "Dấu chức danh nghiêng"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/italianno_OFL.txt",
+      "ttf_file": "fonts/ttf/italianno-400.ttf",
+      "ttf_bytes": 124852,
+      "ttf_sha256": "8b9f528dfeccad7f1572ee10d50823cae5105b8ed69f71b124684c834b940a07",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/italianno/v18/dg4n_p3sv6gCJkwzT6Rnjw.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/italianno-400.vietnamese.woff2",
+          "bytes": 9612,
+          "sha256": "aa7e1c44428d7327ffe4cae593ffbe06a1ea7fc5aa07fed96eea80efd5ba2de1",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/italianno/v18/dg4n_p3sv6gCJkwzT6RXh5wocwM.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/italianno-400.latin-ext.woff2",
+          "bytes": 17872,
+          "sha256": "d04a57cca66ff5a51551d562c57fc2848e043788a8957a7ad82320e5d5af4c41",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/italianno/v18/dg4n_p3sv6gCJkwzT6RXhpwocwM.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/italianno-400.latin.woff2",
+          "bytes": 36948,
+          "sha256": "518325fe367d195cd5e8e120a219f5d83440eddd4c9b6be9321a8c44f7450a9b",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/italianno/v18/dg4n_p3sv6gCJkwzT6RXiJwo.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 800,
+        "descender": -450,
+        "line_gap": 0,
+        "num_glyphs": 595,
+        "num_h_metrics": 595,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "birthstone-400",
+      "family": "Birthstone",
+      "ofl_slug": "birthstone",
+      "weight": 400,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "Vni-Ariston / VNI-Commerce",
+      "recommended_stamps": [
+        "Dấu tên nét liền hiện đại",
+        "Dấu cá nhân văn phòng"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/birthstone_OFL.txt",
+      "ttf_file": "fonts/ttf/birthstone-400.ttf",
+      "ttf_bytes": 129608,
+      "ttf_sha256": "4d7a2e08d7dbc476821e360b1f71ff4791e5f1a40197eac701a5a603728fa847",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/birthstone/v16/8AtsGs2xO4yLRhy87sv_HLk.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/birthstone-400.vietnamese.woff2",
+          "bytes": 8884,
+          "sha256": "ead165caa5c9e34868770cc26490609623bb5d38084c2ba2e09145b5a59c2e16",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/birthstone/v16/8AtsGs2xO4yLRhy87sv_LLHzjCfZ.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/birthstone-400.latin-ext.woff2",
+          "bytes": 23432,
+          "sha256": "e8e44518243680a1b2e2a66b1253ba5e5d39779f242f2ba3ba949f42ccb1f125",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/birthstone/v16/8AtsGs2xO4yLRhy87sv_LLDzjCfZ.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/birthstone-400.latin.woff2",
+          "bytes": 33608,
+          "sha256": "ee253755a5e78a5ddc9dc3d9436a19a89071065697d611834a1f961782b03afe",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/birthstone/v16/8AtsGs2xO4yLRhy87sv_LL7zjA.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 950,
+        "descender": -410,
+        "line_gap": 0,
+        "num_glyphs": 650,
+        "num_h_metrics": 650,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "imperial-script-400",
+      "family": "Imperial Script",
+      "ofl_slug": "imperialscript",
+      "weight": 400,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "VNI-Kun (hoa văn đầu chữ)",
+      "recommended_stamps": [
+        "Dấu tên lãnh đạo cỡ lớn 18x47mm",
+        "Dấu lưu niệm"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/imperialscript_OFL.txt",
+      "ttf_file": "fonts/ttf/imperial-script-400.ttf",
+      "ttf_bytes": 153356,
+      "ttf_sha256": "b6abc024745c722351e0f7a3148013325790863a03ce693a3f91db3a5f7327c4",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/imperialscript/v8/5DCPAKrpzy_H98IV2ISnZBbGrVNvPQ.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/imperial-script-400.vietnamese.woff2",
+          "bytes": 10444,
+          "sha256": "6645a24333f6e6631b06bf8a28b81b02510d8e601407e826b80388598486cb20",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/imperialscript/v8/5DCPAKrpzy_H98IV2ISnZBbGrVNfNePkjts.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/imperial-script-400.latin-ext.woff2",
+          "bytes": 32372,
+          "sha256": "de86720c993ed8923b88784933c274687c15332d543b48dbc7a0f7d35c19649d",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/imperialscript/v8/5DCPAKrpzy_H98IV2ISnZBbGrVNfNOPkjts.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/imperial-script-400.latin.woff2",
+          "bytes": 36100,
+          "sha256": "a7efc19b6f513e909bf2413ccabc2748e5461f89deaba5b6e6bfe2d11096918f",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/imperialscript/v8/5DCPAKrpzy_H98IV2ISnZBbGrVNfOuPk.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 880,
+        "descender": -330,
+        "line_gap": 0,
+        "num_glyphs": 628,
+        "num_h_metrics": 627,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "corinthia-700",
+      "family": "Corinthia",
+      "ofl_slug": "corinthia",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "VNI-Commerce Bold",
+      "recommended_stamps": [
+        "Dấu tên cỡ nhỏ chống đứt nét Laser",
+        "Dấu tên Shiny S-842"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/corinthia_OFL.txt",
+      "ttf_file": "fonts/ttf/corinthia-700.ttf",
+      "ttf_bytes": 164908,
+      "ttf_sha256": "b826687cf8e657bfaa9d308a99e6a54f78be57d8b53da4e65ce5280408b716b5",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/corinthia/v13/wEO6EBrAnchaJyPMHE097d8v1A.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/corinthia-700.vietnamese.woff2",
+          "bytes": 10328,
+          "sha256": "9cb296bda689bc8ddc31b4643b7eb9fdb835b66f02c4e04efcc92256b679ab88",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/corinthia/v13/wEO6EBrAnchaJyPMHE097d8f3GoasbI.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/corinthia-700.latin-ext.woff2",
+          "bytes": 34424,
+          "sha256": "03d58b52f54fc7a9efda4821d2de2ab7c027b7b23879f06bbaeff66641c200be",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/corinthia/v13/wEO6EBrAnchaJyPMHE097d8f3WoasbI.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/corinthia-700.latin.woff2",
+          "bytes": 37088,
+          "sha256": "5f59329b47b121460edbf3af56381bd65c2be946d8cb6279b789363301bbe30b",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/corinthia/v13/wEO6EBrAnchaJyPMHE097d8f02oa.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 760,
+        "descender": -440,
+        "line_gap": 0,
+        "num_glyphs": 721,
+        "num_h_metrics": 721,
+        "index_to_loc_fmt": 1,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "dancing-script-700",
+      "family": "Dancing Script",
+      "ofl_slug": "dancingscript",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "Vni-Ariston Bold",
+      "recommended_stamps": [
+        "Dấu tên bác sĩ/giáo viên",
+        "Dấu shop bán hàng"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/dancingscript_OFL.txt",
+      "ttf_file": "fonts/ttf/dancing-script-700.ttf",
+      "ttf_bytes": 76596,
+      "ttf_sha256": "d2b3a6ce8d91be38a76aa1a1696a9e184140ac5fb5c3aa6a1b8f03dabd9560ee",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HTQ.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/dancing-script-700.vietnamese.woff2",
+          "bytes": 4972,
+          "sha256": "3605b5c766f543f8c1b75a9e0484072f6e5265da3a8cc62eca187895901c5f3d",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i03Rep8ltA.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/dancing-script-700.latin-ext.woff2",
+          "bytes": 14032,
+          "sha256": "fb4ff88fc46327f2ec31197edda787bf9af729e81504dd307d772710aa829368",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i03ROp8ltA.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/dancing-script-700.latin.woff2",
+          "bytes": 25444,
+          "sha256": "06b326d772e3a68977c10711110f5f38255a007f3775795efbcd3862313b2d22",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i03Sup8.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 920,
+        "descender": -280,
+        "line_gap": 0,
+        "num_glyphs": 596,
+        "num_h_metrics": 588,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "charm-700",
+      "family": "Charm",
+      "ofl_slug": "charm",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "Vni-Park Bold (bút lông/thư pháp)",
+      "recommended_stamps": [
+        "Dấu tên thư pháp đậm",
+        "Dấu nhà chùa/ấn chương Việt"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/charm_OFL.txt",
+      "ttf_file": "fonts/ttf/charm-700.ttf",
+      "ttf_bytes": 122220,
+      "ttf_sha256": "75ebbd6a8b692d3257bba668c99316e2ee278d0db74ef624cdc38ae4daa82de3",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/charm/v14/7cHrv4oii5K0Md6TDss8.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/charm-700.vietnamese.woff2",
+          "bytes": 5836,
+          "sha256": "458d0f0c509768e674fa5dca2bcce8a1ac0fa500e46d29a955f19e3530cb084e",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/charm/v14/7cHrv4oii5K0Md6TDvs0wH8RnA.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/charm-700.latin-ext.woff2",
+          "bytes": 16632,
+          "sha256": "8bd56b2abe0f7393a1d58ae0548a2e3ea280337e461e57e1d1fe0035eb98fc9b",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/charm/v14/7cHrv4oii5K0Md6TDvs1wH8RnA.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/charm-700.latin.woff2",
+          "bytes": 20484,
+          "sha256": "8ba4eaea35424e2e3e9b7dc49c04174f865b3c03d71005afec2542cf99460654",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/charm/v14/7cHrv4oii5K0Md6TDvs7wH8.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1115,
+        "descender": -434,
+        "line_gap": 0,
+        "num_glyphs": 776,
+        "num_h_metrics": 733,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "playwrite-vn-400",
+      "family": "Playwrite VN",
+      "ofl_slug": "playwritevn",
+      "weight": 400,
+      "style": "normal",
+      "kdan_group": "P02_CALLIGRAPHY_NAME",
+      "vni_equivalent": "Chữ viết tay tiểu học chuẩn Việt Nam",
+      "recommended_stamps": [
+        "Dấu giáo viên nhận xét",
+        "Dấu tên học sinh/tiểu học"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/playwritevn_OFL.txt",
+      "ttf_file": "fonts/ttf/playwrite-vn-400.ttf",
+      "ttf_bytes": 127824,
+      "ttf_sha256": "7fc65a32e80c8268f2c6b75a37ef26e670346daca121203f46595c4093417f57",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/playwritevn/v11/mtGo4_hXJqPSu8nf5RBY5i0q0yxCxtP-9TFBNUI9E-8.ttf",
+      "woff2_subsets": {
+        "fallback": {
+          "file": "fonts/woff2/playwrite-vn-400.fallback.woff2",
+          "bytes": 42800,
+          "sha256": "40caf7f0139c322649f4147077937a24f6cd2ba4879408a6dc9beb34d6a83475",
+          "unicode_range": "",
+          "upstream_url": "https://fonts.gstatic.com/s/playwritevn/v11/mtGo4_hXJqPSu8nf5RBY5i0q0yxCxtP-9TFBNUI9E-o.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1743,
+        "descender": -769,
+        "line_gap": 0,
+        "num_glyphs": 843,
+        "num_h_metrics": 843,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "be-vietnam-pro-600",
+      "family": "Be Vietnam Pro",
+      "ofl_slug": "bevietnampro",
+      "weight": 600,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "Vni-Avo Medium",
+      "recommended_stamps": [
+        "Dòng địa chỉ quận/tỉnh dấu tròn",
+        "Dấu mã số thuế & thông tin phụ"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/bevietnampro_OFL.txt",
+      "ttf_file": "fonts/ttf/be-vietnam-pro-600.ttf",
+      "ttf_bytes": 123064,
+      "ttf_sha256": "cbf437bf71c8536a7aaed632dce2583ea5ec97c07efffc625c31991d1027ba3b",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HToIV8y.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/be-vietnam-pro-600.vietnamese.woff2",
+          "bytes": 12176,
+          "sha256": "97658c6f9a384f29a3005c3d96e2a0d1c810192cf68979071c290f5a377a9f99",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HToIW86Rb0bcw.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/be-vietnam-pro-600.latin-ext.woff2",
+          "bytes": 13608,
+          "sha256": "20cc75daeaaaa0fa8af2b616b2de2b2900f0ce14ae8e9faa47d272cedd93827f",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HToIW87Rb0bcw.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/be-vietnam-pro-600.latin.woff2",
+          "bytes": 22032,
+          "sha256": "9503dec2a7c532c8331e9600bcafea287a4fd208573b8668d85ab8d8de1863c7",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HToIW81Rb0.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1000,
+        "descender": -265,
+        "line_gap": 0,
+        "num_glyphs": 495,
+        "num_h_metrics": 495,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "be-vietnam-pro-700",
+      "family": "Be Vietnam Pro",
+      "ofl_slug": "bevietnampro",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "Vni-Avo Bold / Vni-Helve Bold",
+      "recommended_stamps": [
+        "Dấu tròn doanh nghiệp 36mm (Trodat 4924)",
+        "Dấu vuông công ty"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/bevietnampro_OFL.txt",
+      "ttf_file": "fonts/ttf/be-vietnam-pro-700.ttf",
+      "ttf_bytes": 126228,
+      "ttf_sha256": "aef76cd15b8c9faa1ff21951bb71963a774aa381526c557e5a52f38d430c4650",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIF8y.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/be-vietnam-pro-700.vietnamese.woff2",
+          "bytes": 12468,
+          "sha256": "4f58af2d1c3e28a9ba14c51c82db2751d78344b75bdcb34de24a1031ebe59da6",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/be-vietnam-pro-700.latin-ext.woff2",
+          "bytes": 13852,
+          "sha256": "33d57e5bd840b03921568e08d2be1082d453e55f1ba55f421e41a1aa54e12601",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/be-vietnam-pro-700.latin.woff2",
+          "bytes": 22152,
+          "sha256": "a193dd87699bd2e18ddf72dc271493ea82a23dad9f5c334d9f2a257b1e05fc30",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1000,
+        "descender": -265,
+        "line_gap": 0,
+        "num_glyphs": 495,
+        "num_h_metrics": 495,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "be-vietnam-pro-800",
+      "family": "Be Vietnam Pro",
+      "ofl_slug": "bevietnampro",
+      "weight": 800,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "Vni-Bamas / Vni-Helve Black",
+      "recommended_stamps": [
+        "Dấu ĐÃ THU TIỀN / ĐÃ CHI TIỀN",
+        "Dấu SAO Y BẢN CHÍNH"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/bevietnampro_OFL.txt",
+      "ttf_file": "fonts/ttf/be-vietnam-pro-800.ttf",
+      "ttf_bytes": 126024,
+      "ttf_sha256": "116124d76142998ec6b49b76b0024314d5f0ef910e8898fa75a5dc38f6f03c6a",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSQI18y.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/be-vietnam-pro-800.vietnamese.woff2",
+          "bytes": 12404,
+          "sha256": "26b241d1d5f489c8a65c1a3c4cdcdb48dd114a9ed7e0c0180182191f087cbe96",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSQI286Rb0bcw.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/be-vietnam-pro-800.latin-ext.woff2",
+          "bytes": 13752,
+          "sha256": "85a2008e6d5f2381a076d36d38771957b118683d0fff3029844737aff6b96a10",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSQI287Rb0bcw.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/be-vietnam-pro-800.latin.woff2",
+          "bytes": 22320,
+          "sha256": "7c5d0871188c09339a6eb46948420ed9b11f3d06ea3ff1c5d1cf41b06a3504e7",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSQI281Rb0.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1000,
+        "descender": -265,
+        "line_gap": 0,
+        "num_glyphs": 495,
+        "num_h_metrics": 495,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "barlow-condensed-600",
+      "family": "Barlow Condensed",
+      "ofl_slug": "barlowcondensed",
+      "weight": 600,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "VNI-Helve-Condense",
+      "recommended_stamps": [
+        "Vành chữ cong tên công ty dài trên dấu tròn 36mm",
+        "Ô bảng dấu hoàn công"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/barlowcondensed_OFL.txt",
+      "ttf_file": "fonts/ttf/barlow-condensed-600.ttf",
+      "ttf_bytes": 86636,
+      "ttf_sha256": "0d85af813fc3ed87db0c6265515689b2eef5cbaf7aab17922528dfc95a2cd73f",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873_3E.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/barlow-condensed-600.vietnamese.woff2",
+          "bytes": 7696,
+          "sha256": "5598861e729ef9e8e40996cc1a4dddafa72df5981205cc929b900524e8c58890",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3nWuZEC.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/barlow-condensed-600.latin-ext.woff2",
+          "bytes": 14516,
+          "sha256": "aef7edf54f79a5329fbca9c065b56dcec3852c680d58cf89a9ef2db6940ca4b3",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3jWuZEC.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/barlow-condensed-600.latin.woff2",
+          "bytes": 22308,
+          "sha256": "215a93c696f442034a46fbb382958f753fda60e30490683aeea6b235fcbb2b66",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3bWuQ.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1000,
+        "descender": -200,
+        "line_gap": 0,
+        "num_glyphs": 571,
+        "num_h_metrics": 564,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "barlow-condensed-700",
+      "family": "Barlow Condensed",
+      "ofl_slug": "barlowcondensed",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "VNI-Helve-Condense Bold",
+      "recommended_stamps": [
+        "Vành ngoài CÔNG TY CỔ PHẦN ... dấu tròn 36mm",
+        "Tâm dấu tròn pháp nhân"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/barlowcondensed_OFL.txt",
+      "ttf_file": "fonts/ttf/barlow-condensed-700.ttf",
+      "ttf_bytes": 87120,
+      "ttf_sha256": "7dde307fa887fc65ff5830cfada77a7decc5dae8d3c816c9d39ba3f1af1c4ed7",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2_3E.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/barlow-condensed-700.vietnamese.woff2",
+          "bytes": 7636,
+          "sha256": "6c554f2decc277ef760244c5ee6b5a85840862966e2ad4d02a1bdcdfefb9afa2",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3nWuZEC.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/barlow-condensed-700.latin-ext.woff2",
+          "bytes": 14640,
+          "sha256": "9d351bd9222bfab90f943850f8039aa73cdb40e0a6cfe4127308a48bef59d5f5",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3jWuZEC.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/barlow-condensed-700.latin.woff2",
+          "bytes": 22444,
+          "sha256": "3787a5a419171630e6890cfa47c4da067474d005cd0ff8dc11ec090fdc3ee2b8",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1000,
+        "descender": -200,
+        "line_gap": 0,
+        "num_glyphs": 571,
+        "num_h_metrics": 564,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "roboto-condensed-700",
+      "family": "Roboto Condensed",
+      "ofl_slug": "robotocondensed",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "Vni-Helve Condensed Bold",
+      "recommended_stamps": [
+        "Dấu bản vẽ hoàn công (P03)",
+        "Dấu nghiệp vụ kho/kế toán"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/robotocondensed_OFL.txt",
+      "ttf_file": "fonts/ttf/roboto-condensed-700.ttf",
+      "ttf_bytes": 113112,
+      "ttf_sha256": "35140bfdde80295fbcd04dad086f51688abca96cb8c87529daf781c4462b6e33",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpfBJ.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/roboto-condensed-700.vietnamese.woff2",
+          "bytes": 8000,
+          "sha256": "39c1e9d082a38a8ffd8aaa1c5f74b9c02eaf149fff0b1d6c3de9e52bdf84eafe",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBB5XxxKA.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/roboto-condensed-700.latin-ext.woff2",
+          "bytes": 14236,
+          "sha256": "b7afcd7367b91f6fafbd05ab4ac6195ebd95794e354c368a0dcb1abb5ffc87ed",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBA5XxxKA.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/roboto-condensed-700.latin.woff2",
+          "bytes": 21128,
+          "sha256": "ab74f0c2d7ec37e44e017b9586675dd00c519591207dc3bbc8e003c5628dc9b7",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBO5Xw.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 2048,
+        "ascender": 1900,
+        "descender": -500,
+        "line_gap": 0,
+        "num_glyphs": 1031,
+        "num_h_metrics": 1031,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "oswald-700",
+      "family": "Oswald",
+      "ofl_slug": "oswald",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "VNI-Helve-Condense Heavy",
+      "recommended_stamps": [
+        "Tiêu đề BẢN VẼ HOÀN CÔNG",
+        "Dấu ĐÃ KIỂM TRA / KHẨN / MẬT"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/oswald_OFL.txt",
+      "ttf_file": "fonts/ttf/oswald-700.ttf",
+      "ttf_bytes": 86416,
+      "ttf_sha256": "a6ee8b91ec269a6f48631ba4ba1a3ab7e5039e5482dda8dc9672ee4620d7bd68",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogUE.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/oswald-700.vietnamese.woff2",
+          "bytes": 4192,
+          "sha256": "915d954b1525a17b20d6dd9344f3cca74a4931080de5721958b2f9a049461496",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUliZTaR.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/oswald-700.latin-ext.woff2",
+          "bytes": 11980,
+          "sha256": "ceb8c34b47b9e706ebbb402ca2db8055adea563a417590090bd5ac42df3c8272",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUhiZTaR.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/oswald-700.latin.woff2",
+          "bytes": 12672,
+          "sha256": "aae665c75af89ea7cb7d8ccc8b0911ea72267442ebcd84f6e3efa041ad3b3c16",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUZiZQ.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1193,
+        "descender": -289,
+        "line_gap": 0,
+        "num_glyphs": 867,
+        "num_h_metrics": 867,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "archivo-narrow-700",
+      "family": "Archivo Narrow",
+      "ofl_slug": "archivonarrow",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "Vni-Helve Narrow",
+      "recommended_stamps": [
+        "Dấu địa chỉ dài nhiều chữ",
+        "Dấu MST + SĐT hộ kinh doanh"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/archivonarrow_OFL.txt",
+      "ttf_file": "fonts/ttf/archivo-narrow-700.ttf",
+      "ttf_bytes": 58340,
+      "ttf_sha256": "ae9051970e75e3e260f15d103bb7642271bdb6b36b78e7604d588582cea7948e",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1aKpA.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/archivo-narrow-700.vietnamese.woff2",
+          "bytes": 4356,
+          "sha256": "b09332a95c297693b88c38ffafaaf806b5b9ac253632c4dd1f8645c9e86d363e",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1a6rHmsJCQ.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/archivo-narrow-700.latin-ext.woff2",
+          "bytes": 10852,
+          "sha256": "146b1f02c8b3ab29b767569524edcb5a83929212bbda070c0b8b7ab770e50c9a",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1a6rXmsJCQ.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/archivo-narrow-700.latin.woff2",
+          "bytes": 11776,
+          "sha256": "062eae97e718b8a39ff5861d08046755eaf4c6f27f9a0fe861116d9d1305d6bf",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1a6o3ms.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1035,
+        "descender": -312,
+        "line_gap": 0,
+        "num_glyphs": 765,
+        "num_h_metrics": 762,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "anton-400",
+      "family": "Anton",
+      "ofl_slug": "anton",
+      "weight": 400,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "Vni-Bamas (nét khối siêu đậm)",
+      "recommended_stamps": [
+        "Dấu ĐÃ THU TIỀN / ĐÃ THANH TOÁN",
+        "Dấu HỦY / ĐÃ GIAO HÀNG"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/anton_OFL.txt",
+      "ttf_file": "fonts/ttf/anton-400.ttf",
+      "ttf_bytes": 130324,
+      "ttf_sha256": "fd9301f2837c99df2be07cc7f0be66e9470f5354d8fcf1606027c67fcd637a53",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm0K0.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/anton-400.vietnamese.woff2",
+          "bytes": 8680,
+          "sha256": "82cc85bd416dc825c05b4264a8a58e189e528fed8a05fbd471b5493e010d623b",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm3K8-C8QSw.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/anton-400.latin-ext.woff2",
+          "bytes": 31356,
+          "sha256": "0d17b7880f389deeb6663a52fa4eadc6d9116bdda725f0aa1f3d404fbb7d3d59",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm3K9-C8QSw.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/anton-400.latin.woff2",
+          "bytes": 18612,
+          "sha256": "d0fa07ff63dd60cbc0e2f58e29c802dca2a5ae0276c999f59c6111ab7bbaec3b",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm3Kz-C8.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 2048,
+        "ascender": 2409,
+        "descender": -674,
+        "line_gap": 0,
+        "num_glyphs": 1056,
+        "num_h_metrics": 1056,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "montserrat-700",
+      "family": "Montserrat",
+      "ofl_slug": "montserrat",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "Vni-Avo Bold (hình học tròn đều)",
+      "recommended_stamps": [
+        "Dấu logo thương hiệu tròn",
+        "Dấu chức danh hiện đại"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/montserrat_OFL.txt",
+      "ttf_file": "fonts/ttf/montserrat-700.ttf",
+      "ttf_bytes": 181028,
+      "ttf_sha256": "247f052d2f5b84a5bbe7831c3b08a71ca391ff54f1dfb9be88a3d3da569e3a38",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/montserrat-700.vietnamese.woff2",
+          "bytes": 7904,
+          "sha256": "da6ed50e8a351c07e86d912207c8dd7a336c644ff6dbf2a40555a08f2406519e",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w2aXpsog.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/montserrat-700.latin-ext.woff2",
+          "bytes": 33532,
+          "sha256": "a59fcc944a712e213a2f3bd994367129217c75f24a9155a5a3c1a0f5fd2cc9a7",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aXpsog.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/montserrat-700.latin.woff2",
+          "bytes": 18824,
+          "sha256": "f9d9e65b15372cebcafc3acd1e664a564c5c4b23278de4d5760de9a13c530371",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 968,
+        "descender": -251,
+        "line_gap": 0,
+        "num_glyphs": 1532,
+        "num_h_metrics": 1532,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "plus-jakarta-sans-700",
+      "family": "Plus Jakarta Sans",
+      "ofl_slug": "plusjakartasans",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "Vni-Aptima Bold",
+      "recommended_stamps": [
+        "Dấu tên không chân thanh lịch",
+        "Dấu phòng ban doanh nghiệp"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/plusjakartasans_OFL.txt",
+      "ttf_file": "fonts/ttf/plus-jakarta-sans-700.ttf",
+      "ttf_bytes": 63336,
+      "ttf_sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_TknNSg.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/plus-jakarta-sans-700.vietnamese.woff2",
+          "bytes": 4268,
+          "sha256": "4dda300501fe09bb074a0559f9d58d8deede6cb9c34a06190d62d91f4790bc58",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_Tkn9Qh_VIKg.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/plus-jakarta-sans-700.latin-ext.woff2",
+          "bytes": 11008,
+          "sha256": "b202ec87899e78825db955e6ab43858b88c0cd444abe2dfac2e763f837b8f234",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_Tkn9Qx_VIKg.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/plus-jakarta-sans-700.latin.woff2",
+          "bytes": 12244,
+          "sha256": "2050755bf475817c96ac7d914c7f07cc3c2d11ff4b3fb4747b8d41de584aad17",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_Tkn9TR_V.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1038,
+        "descender": -222,
+        "line_gap": 0,
+        "num_glyphs": 781,
+        "num_h_metrics": 780,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "space-mono-700",
+      "family": "Space Mono",
+      "ofl_slug": "spacemono",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P01_P03_CORPORATE_SANS",
+      "vni_equivalent": "Số cố định độ rộng (MST / Ngày tháng)",
+      "recommended_stamps": [
+        "Dòng M.S.D.N: 0300588569-001",
+        "Dấu nhảy số / Dấu ngày tháng"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/spacemono_OFL.txt",
+      "ttf_file": "fonts/ttf/space-mono-700.ttf",
+      "ttf_bytes": 79904,
+      "ttf_sha256": "5be2b984cdb8befc8ad1871d10f1aa8337f7d2bae3c6bf0ce720d0745ac1a8ec",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZYFI.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/space-mono-700.vietnamese.woff2",
+          "bytes": 7332,
+          "sha256": "97f6df0559c6393b851812484ae859b7c539815d5fcdab7d17234492480fa16c",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZUFqaHjyV.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/space-mono-700.latin-ext.woff2",
+          "bytes": 15808,
+          "sha256": "52edd9a8959ec3e68d618e2a4757182c0e61bfeea61679850cad8744a68cadf3",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZUFuaHjyV.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/space-mono-700.latin.woff2",
+          "bytes": 16724,
+          "sha256": "2d46bd159b53f55c41167a4f1540a074649464194fd1e416f5b4694a6c0f282c",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1120,
+        "descender": -361,
+        "line_gap": 0,
+        "num_glyphs": 647,
+        "num_h_metrics": 634,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "noto-serif-700",
+      "family": "Noto Serif",
+      "ofl_slug": "notoserif",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P02_TITLE_SERIF",
+      "vni_equivalent": "Times New Roman Bold / VNI-Times",
+      "recommended_stamps": [
+        "Dấu GIÁM ĐỐC / CHỦ TỊCH HĐQT",
+        "Dấu tên chính quy có chân"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/notoserif_OFL.txt",
+      "ttf_file": "fonts/ttf/noto-serif-700.ttf",
+      "ttf_bytes": 445548,
+      "ttf_sha256": "0fb67e6eecf823169409867bdda4fe1b91d6ff1adee5288f233cba0d42dc4734",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZT1ejwA.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/noto-serif-700.vietnamese.woff2",
+          "bytes": 5820,
+          "sha256": "e2c65dbf3abb07aee564c409257b942d3baedc2f4fe2f585ae88bf3d821503fc",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZT1eTyMcKtq8.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/noto-serif-700.latin-ext.woff2",
+          "bytes": 65496,
+          "sha256": "52c9361ebb521542e71e5a11aa5683ab3bbd8df5428888e95786478bb1377cba",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZT1eTyccKtq8.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/noto-serif-700.latin.woff2",
+          "bytes": 15232,
+          "sha256": "0d0b440760c93e6fec440ad438d10cea6c70367a0f5ecfcfa15cef0a85c67093",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZT1eTx8cK.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1069,
+        "descender": -293,
+        "line_gap": 0,
+        "num_glyphs": 3178,
+        "num_h_metrics": 3178,
+        "index_to_loc_fmt": 1,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "noto-serif-700-italic",
+      "family": "Noto Serif",
+      "ofl_slug": "notoserif",
+      "weight": 700,
+      "style": "italic",
+      "kdan_group": "P02_TITLE_SERIF",
+      "vni_equivalent": "Times New Roman Bold Italic",
+      "recommended_stamps": [
+        "Dấu KT. GIÁM ĐỐC / PHÓ GIÁM ĐỐC",
+        "Dấu tên chữ có chân nghiêng"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/notoserif_OFL.txt",
+      "ttf_file": "fonts/ttf/noto-serif-700-italic.ttf",
+      "ttf_bytes": 476596,
+      "ttf_sha256": "e8f4212d591d4075bfb39422937bb71b2d893a59f87606503b789f7e3d23bd7f",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/notoserif/v33/ga6saw1J5X9T9RW6j9bNfFIMZhhWnFTyNZIQD1-_FXP0RgnaOg9MYBOshMcP.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/noto-serif-700-italic.vietnamese.woff2",
+          "bytes": 5872,
+          "sha256": "87191559c217768073146c7ef45ea4e7391f586eb7c26abbce189b04ef4acdbd",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/notoserif/v33/ga6saw1J5X9T9RW6j9bNfFIMZhhWnFTyNZIQD1-_FXP0RgnaOg9MYBOshPcHrqvyzw.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/noto-serif-700-italic.latin-ext.woff2",
+          "bytes": 68016,
+          "sha256": "0b34946f322216a1b4e3751a21c6f1f050c1d23016169f456802bcf6b7617620",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/notoserif/v33/ga6saw1J5X9T9RW6j9bNfFIMZhhWnFTyNZIQD1-_FXP0RgnaOg9MYBOshPcGrqvyzw.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/noto-serif-700-italic.latin.woff2",
+          "bytes": 15812,
+          "sha256": "cc89f2cf96acfcf7415d44de050ae7666d44d29acc608e4ef8a19697de6c5f3f",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/notoserif/v33/ga6saw1J5X9T9RW6j9bNfFIMZhhWnFTyNZIQD1-_FXP0RgnaOg9MYBOshPcIrqs.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1069,
+        "descender": -293,
+        "line_gap": 0,
+        "num_glyphs": 3185,
+        "num_h_metrics": 3185,
+        "index_to_loc_fmt": 1,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "eb-garamond-700",
+      "family": "EB Garamond",
+      "ofl_slug": "ebgaramond",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P02_TITLE_SERIF",
+      "vni_equivalent": "VNI-Centur / Garamond Bold",
+      "recommended_stamps": [
+        "Dấu học hàm PGS.TS. / TS.",
+        "Dấu văn phòng luật sư / công chứng"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/ebgaramond_OFL.txt",
+      "ttf_file": "fonts/ttf/eb-garamond-700.ttf",
+      "ttf_bytes": 392040,
+      "ttf_sha256": "40b4eb8a3c92f651728bc285ac3acacec1005ef5436cf33a337ab5ffe86daf29",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUAw.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/eb-garamond-700.vietnamese.woff2",
+          "bytes": 6460,
+          "sha256": "64ebb822c0b9fa62cc14055e750a8c5250265b93837107e59b4ae086d3419a1e",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNkC49_S6w.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/eb-garamond-700.latin-ext.woff2",
+          "bytes": 63560,
+          "sha256": "33db13f493e46192e13da59d5aac5c2dd19d6de441ecd0fae47098616e27e2da",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNkCo9_S6w.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/eb-garamond-700.latin.woff2",
+          "bytes": 25292,
+          "sha256": "ae7cef029eea959654a474fbcaa2c202f205abfca29caaef62e9a0019c3c8370",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNkBI9_.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1007,
+        "descender": -298,
+        "line_gap": 0,
+        "num_glyphs": 2272,
+        "num_h_metrics": 2272,
+        "index_to_loc_fmt": 1,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "eb-garamond-600-italic",
+      "family": "EB Garamond",
+      "ofl_slug": "ebgaramond",
+      "weight": 600,
+      "style": "italic",
+      "kdan_group": "P02_TITLE_SERIF",
+      "vni_equivalent": "VNI-Centur Italic",
+      "recommended_stamps": [
+        "Dấu tên học thuật nghiêng (TS. Vũ Thế Anh)",
+        "Dấu bác sĩ chuyên khoa"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/ebgaramond_OFL.txt",
+      "ttf_file": "fonts/ttf/eb-garamond-600-italic.ttf",
+      "ttf_bytes": 342192,
+      "ttf_sha256": "e3e85d75d5e89599fda5150a4dc1fb59da71f710ffe47f9196ac4fac52257cd3",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR496.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/eb-garamond-600-italic.vietnamese.woff2",
+          "bytes": 6436,
+          "sha256": "7a543d057dbd5ab0e423573a33ec1b8f69872c751c7fde1bddb35434b29cb36a",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR79yU6ingQ.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/eb-garamond-600-italic.latin-ext.woff2",
+          "bytes": 49228,
+          "sha256": "0d0dd28c1e769765bfc00be45564929f6d52af1fee2e228484308c32ee1530bc",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR79zU6ingQ.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/eb-garamond-600-italic.latin.woff2",
+          "bytes": 26812,
+          "sha256": "a787b3a12448273c2a6a6761625dea93061573ff409785421689d14d4b83409b",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR799U6g.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1007,
+        "descender": -298,
+        "line_gap": 0,
+        "num_glyphs": 2145,
+        "num_h_metrics": 2145,
+        "index_to_loc_fmt": 1,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "cormorant-garamond-700",
+      "family": "Cormorant Garamond",
+      "ofl_slug": "cormorantgaramond",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P02_TITLE_SERIF",
+      "vni_equivalent": "Vni-Palatin / Vni-Pagon",
+      "recommended_stamps": [
+        "Dấu tên cổ điển sang trọng",
+        "Dấu thương hiệu cao cấp"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/cormorantgaramond_OFL.txt",
+      "ttf_file": "fonts/ttf/cormorant-garamond-700.ttf",
+      "ttf_bytes": 289992,
+      "ttf_sha256": "440daf036a35abd6d2bdfa92b14ab0f150cce690fe6d767ee5cab15a1a10a87f",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnM.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/cormorant-garamond-700.vietnamese.woff2",
+          "bytes": 6228,
+          "sha256": "212275cd3ee9d6a80d8715fc1ac12920b3f328bfc7d1a6bb15442826675e6186",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9KnvOiss4.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/cormorant-garamond-700.latin-ext.woff2",
+          "bytes": 19328,
+          "sha256": "f6cf9ae2417875c056a91df3669b14099da0a004ed66460324208d3541e7fa86",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9KnrOiss4.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/cormorant-garamond-700.latin.woff2",
+          "bytes": 22340,
+          "sha256": "21a0fc1c5c22708cf4aa0c147fd32982e25bf9e21efec0ca31a4495ba41753eb",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9KnTOig.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 924,
+        "descender": -287,
+        "line_gap": 0,
+        "num_glyphs": 1308,
+        "num_h_metrics": 1306,
+        "index_to_loc_fmt": 1,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "lora-700",
+      "family": "Lora",
+      "ofl_slug": "lora",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P02_TITLE_SERIF",
+      "vni_equivalent": "VNI-Centur (chân chữ dày chống cháy Laser)",
+      "recommended_stamps": [
+        "Dấu chức danh + họ tên 2 dòng",
+        "Dấu sao y công chứng"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/lora_OFL.txt",
+      "ttf_file": "fonts/ttf/lora-700.ttf",
+      "ttf_bytes": 132124,
+      "ttf_sha256": "ac3145cd8846b6ab3522ac0579a4f5378271f6a93896cb800d27f301fa9f7758",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787z5vCJG.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/lora-700.vietnamese.woff2",
+          "bytes": 5288,
+          "sha256": "c6195d771bdd65f6d08633c6eef7320f1d5136030ed0a94c08b7a77cd8583690",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJOkq1umA.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/lora-700.latin-ext.woff2",
+          "bytes": 11968,
+          "sha256": "eacd7ecd09a1b5cc2706867f2505fb139825c3db70b17123538565fb723d0000",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJPkq1umA.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/lora-700.latin.woff2",
+          "bytes": 21044,
+          "sha256": "c05fd5289492ed310ed882259b944ca5287e76e572a65d92d3941f9f44f0342a",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJBkq0.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1006,
+        "descender": -274,
+        "line_gap": 0,
+        "num_glyphs": 889,
+        "num_h_metrics": 889,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "playfair-display-700",
+      "family": "Playfair Display",
+      "ofl_slug": "playfairdisplay",
+      "weight": 700,
+      "style": "normal",
+      "kdan_group": "P02_TITLE_SERIF",
+      "vni_equivalent": "VNI-Centur Display",
+      "recommended_stamps": [
+        "Dấu thẩm mỹ viện / spa / boutique",
+        "Dấu tên nghệ thuật có chân"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/playfairdisplay_OFL.txt",
+      "ttf_file": "fonts/ttf/playfair-display-700.ttf",
+      "ttf_bytes": 123536,
+      "ttf_sha256": "adefc53e7b3d483f1fa5e85edd82b7689ca79db25a1f6786bd7949cdcfeec601",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiukDQ.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/playfair-display-700.vietnamese.woff2",
+          "bytes": 5664,
+          "sha256": "560402596d5f067fab1884bd39cadedbc8da9b01f85e39f134c06fb4d4472f2d",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDYbtPY_Q.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/playfair-display-700.latin-ext.woff2",
+          "bytes": 12904,
+          "sha256": "edb9f5d879b30c617698bcc288692c339d5a0a2464a5476f00025195e5cad166",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDZbtPY_Q.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/playfair-display-700.latin.woff2",
+          "bytes": 23224,
+          "sha256": "28453852ea165c47b5a941be00e418402e1407002ed87507f062a1e316328fe6",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtM.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 1082,
+        "descender": -251,
+        "line_gap": 0,
+        "num_glyphs": 756,
+        "num_h_metrics": 756,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    },
+    {
+      "key": "bitter-800",
+      "family": "Bitter",
+      "ofl_slug": "bitter",
+      "weight": 800,
+      "style": "normal",
+      "kdan_group": "P02_TITLE_SERIF",
+      "vni_equivalent": "Vni-Yahoo (chân vuông Slab-Serif)",
+      "recommended_stamps": [
+        "Dấu in lên thùng carton / bao bì",
+        "Dấu tên chân vuông siêu bền"
+      ],
+      "license": "SIL OFL-1.1",
+      "license_file": "licenses/bitter_OFL.txt",
+      "ttf_file": "fonts/ttf/bitter-800.ttf",
+      "ttf_bytes": 158592,
+      "ttf_sha256": "b6b59895da133a6c19084fecef67cecb8f731a4b557b32d27180f1c0079b230e",
+      "ttf_upstream_url": "https://fonts.gstatic.com/s/bitter/v42/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbYCL8.ttf",
+      "woff2_subsets": {
+        "vietnamese": {
+          "file": "fonts/woff2/bitter-800.vietnamese.woff2",
+          "bytes": 5984,
+          "sha256": "75357d019c9ac30c565235d9ea5063861d40da48350ac907e80287915ebd6097",
+          "unicode_range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+          "upstream_url": "https://fonts.gstatic.com/s/bitter/v42/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbYOLfOXWh2.woff2"
+        },
+        "latin-ext": {
+          "file": "fonts/woff2/bitter-800.latin-ext.woff2",
+          "bytes": 19196,
+          "sha256": "3a812be49d1a3aedfec102e9ede4f0a72389aec859e87bd389f65c79c4910f41",
+          "unicode_range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+          "upstream_url": "https://fonts.gstatic.com/s/bitter/v42/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbYOLbOXWh2.woff2"
+        },
+        "latin": {
+          "file": "fonts/woff2/bitter-800.latin.woff2",
+          "bytes": 19372,
+          "sha256": "83027311e17cd6234e1d8f94e9d2fa8bff37ba1ab3b838e06498b915a19ad8fd",
+          "unicode_range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+          "upstream_url": "https://fonts.gstatic.com/s/bitter/v42/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbYOLjOXQ.woff2"
+        }
+      },
+      "binary_audit": {
+        "magic_hex": "00010000",
+        "is_static_glyf": true,
+        "has_gvar": false,
+        "units_per_em": 1000,
+        "ascender": 935,
+        "descender": -265,
+        "line_gap": 0,
+        "num_glyphs": 1190,
+        "num_h_metrics": 1190,
+        "index_to_loc_fmt": 0,
+        "vn_134_covered": 134,
+        "vn_134_missing": "",
+        "ascii_core_covered": 70,
+        "ascii_core_missing": ""
+      }
+    }
+  ]
+}

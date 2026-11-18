@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>KDAN Vector Studio 24/7 — Cổng Đám Mây Bảo Mật Độc Lập</title>
+<title>KDAN Vector Studio 24/7 — Cổng Đám Mây Bảo Mật (Auto-Trace V9.3 + Tab Maket 31 Font)</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231d4ed8'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='28' font-weight='bold' text-anchor='middle' fill='white'%3EV9%3C/text%3E%3C/svg%3E">
 <style id="kdanGateCss">
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
   html, body { min-height: 100vh; overflow-x: hidden; background: radial-gradient(circle at top, #1e293b 0%, #0f172a 72%); color: #f8fafc; }
   .gate-wrap { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 18px; }
   .gate-card {
-    width: 100%; max-width: 432px;
+    width: 100%; max-width: 452px;
     background: rgba(30, 41, 59, 0.96);
     border: 1px solid rgba(148, 163, 184, 0.28);
     border-radius: 18px;
@@ -25,7 +25,18 @@
     font-size: 12px; font-weight: 800; margin-bottom: 14px;
   }
   .gate-card h1 { font-size: 20px; font-weight: 800; color: #ffffff; margin-bottom: 7px; letter-spacing: -0.01em; }
-  .gate-desc { font-size: 13px; color: #cbd5e1; line-height: 1.55; margin-bottom: 18px; }
+  .gate-desc { font-size: 13px; color: #cbd5e1; line-height: 1.55; margin-bottom: 14px; }
+  .mode-selector {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 16px;
+  }
+  .mode-opt {
+    min-height: 40px; padding: 8px 10px; border-radius: 10px;
+    border: 1.5px solid #475569; background: #0f172a; color: #cbd5e1;
+    font-size: 12px; font-weight: 700; cursor: pointer; text-align: center;
+  }
+  .mode-opt.active {
+    border-color: #60a5fa; background: #1e3a8a; color: #ffffff;
+  }
   .gate-label { display: block; font-size: 12px; font-weight: 800; color: #e2e8f0; margin-bottom: 7px; letter-spacing: 0.03em; }
   .pin-row { display: flex; gap: 8px; align-items: stretch; }
   .pin-input {
@@ -69,27 +80,47 @@
 <main class="gate-wrap" id="gateWrap">
   <form class="gate-card" id="loginForm" autocomplete="off">
     <div class="gate-badge">☁️ CỔNG ĐÁM MÂY 24/7 · SỐNG LIÊN TỤC KHI TẮT PC</div>
-    <h1>KDAN Vector Studio Bảo Mật</h1>
+    <h1>KDAN Vector &amp; Tab Maket Studio</h1>
     <p class="gate-desc">
-      Nhập mã khóa truy cập do Quản lý cấp để mở khóa động cơ <b>Ảnh → Vector .SVG / .EPS CorelDRAW</b> chạy trực tiếp 24/7 trên đám mây HTTPS.
+      Nhập mã khóa 1 lần để mở khóa cả <b>Tách Nét Tự Động V9.3</b> lẫn <b>Tab Maket Onion-Skin Corel Studio (31 Font)</b> chạy trực tiếp 24/7 khi tắt nguồn PC.
     </p>
+    <div class="mode-selector" role="group" aria-label="Chọn chế độ khởi động">
+      <button type="button" id="gateModeVector" class="mode-opt active">🎨 Tách Nét V9.3</button>
+      <button type="button" id="gateModeMaket" class="mode-opt">✒️ Tab Maket 31 Font</button>
+    </div>
     <label class="gate-label" for="pinInput">MÃ KHÓA TRUY CẬP (ACCESS PIN)</label>
     <div class="pin-row">
       <input id="pinInput" class="pin-input" type="password" placeholder="VD: KDAN-XXXXXX" required autofocus autocomplete="off" spellcheck="false">
       <button type="button" id="btnTogglePin" class="btn-eye" aria-label="Hiện hoặc ẩn mã khóa">Hiện</button>
     </div>
-    <button type="submit" id="btnSubmit" class="btn-unlock">🔓 Giải Mã & Mở Công Cụ Ngay</button>
+    <button type="submit" id="btnSubmit" class="btn-unlock">🔓 Giải Mã &amp; Mở Công Cụ Ngay</button>
     <div class="gate-err" id="errBox" role="alert"></div>
     <div class="gate-meta">
-      🔒 <b>Bảo mật Két Tĩnh AES-256-GCM + PBKDF2-SHA256 (250.000 vòng):</b> 0% lộ mã nguồn công khai · Tự động đồng bộ tính năng mới theo thời gian thực.
+      🔒 <b>Bảo mật Két Đôi AES-256-GCM + PBKDF2-SHA256 (250.000 vòng):</b> 0% lộ mã nguồn công khai · Chuyển đổi mượt giữa 2 Tab không cần nhập lại PIN.
     </div>
   </form>
 </main>
 <script>
-(function initKdan24x7Gate() {
+(function initKdanUnified24x7Gate() {
   "use strict";
   const SESSION_KEY = "kdan_cloud_dk_v1";
   const FAIL_KEY = "kdan_cloud_fail_v1";
+  const qs = new URLSearchParams(location.search);
+  let targetTab = qs.get("tab") === "maket" ? "maket" : "vector";
+
+  const btnModeVec = document.getElementById("gateModeVector");
+  const btnModeMak = document.getElementById("gateModeMaket");
+  function syncModeButtons() {
+    if (btnModeVec) btnModeVec.classList.toggle("active", targetTab === "vector");
+    if (btnModeMak) btnModeMak.classList.toggle("active", targetTab === "maket");
+  }
+  syncModeButtons();
+  if (btnModeVec) btnModeVec.addEventListener("click", () => { targetTab = "vector"; syncModeButtons(); });
+  if (btnModeMak) btnModeMak.addEventListener("click", () => { targetTab = "maket"; syncModeButtons(); });
+
+  function getVaultFilename(tabName) {
+    return tabName === "maket" ? "./maket_vault.enc.json" : "./vault.enc.json";
+  }
 
   function b64ToBytes(b64) {
     const bin = atob(b64);
@@ -150,14 +181,15 @@
     return await decompressGzipUtf8(decGz);
   }
 
-  async function fetchVaultJson(cacheBustTag) {
+  async function fetchVaultJson(tabName, cacheBustTag) {
+    const file = getVaultFilename(tabName);
     const q = cacheBustTag ? ("?v=" + encodeURIComponent(cacheBustTag) + "&t=" + Date.now()) : ("?t=" + Date.now());
-    const resp = await fetch("./vault.enc.json" + q, { cache: "no-store" });
+    const resp = await fetch(file + q, { cache: "no-store" });
     if (!resp.ok) throw new Error("HTTP " + resp.status + " khi tải két bảo mật.");
     return await resp.json();
   }
 
-  function mountDecryptedStudioHtml(studioHtml) {
+  async function mountDecryptedStudioHtml(studioHtml) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(studioHtml, "text/html");
     if (doc.title) document.title = doc.title;
@@ -165,14 +197,32 @@
     const gateCss = document.getElementById("kdanGateCss");
     if (gateCss) gateCss.remove();
 
+    const headPromises = [];
     Array.from(doc.head.children).forEach((el) => {
       if (el.tagName === "STYLE") {
         const clone = document.createElement("style");
         if (el.id) clone.id = el.id;
         clone.textContent = el.textContent;
         document.head.appendChild(clone);
+      } else if (el.tagName === "LINK" && (el.getAttribute("rel") || "").toLowerCase() === "stylesheet") {
+        const href = el.getAttribute("href");
+        if (href) {
+          const link = document.createElement("link");
+          link.rel = "stylesheet";
+          link.href = href;
+          headPromises.push(
+            new Promise((resolve) => {
+              link.onload = () => resolve();
+              link.onerror = () => resolve();
+              document.head.appendChild(link);
+            })
+          );
+        }
       }
     });
+    if (headPromises.length) {
+      await Promise.race([Promise.all(headPromises), new Promise((r) => setTimeout(r, 1500))]);
+    }
 
     document.body.className = doc.body.className || "";
     document.body.innerHTML = "";
@@ -190,23 +240,32 @@
       const orig = scriptsToRun[i];
       const s = document.createElement("script");
       if (orig.id) s.id = orig.id;
-      s.textContent = orig.textContent;
-      document.body.appendChild(s);
+      const srcAttr = orig.getAttribute("src");
+      if (srcAttr) {
+        await new Promise((resolve, reject) => {
+          s.src = srcAttr;
+          s.onload = () => resolve();
+          s.onerror = () => reject(new Error("Không thể nạp thư viện: " + srcAttr));
+          document.body.appendChild(s);
+        });
+      } else {
+        s.textContent = orig.textContent;
+        document.body.appendChild(s);
+      }
     }
   }
 
-  // Expose hot-swap verifier for 12s Cloud Live Sync Poller (verifies new vault & reloads 0-PIN)
   window.__kdanHotSwapVaultFromSession__ = async function(expectedBuildSig) {
     try {
       const savedRaw = sessionStorage.getItem(SESSION_KEY);
       if (!savedRaw) return false;
       const saved = JSON.parse(savedRaw);
-      const vault = await fetchVaultJson(expectedBuildSig);
+      const vault = await fetchVaultJson(targetTab, expectedBuildSig);
       if (!vault || vault.buildSig !== expectedBuildSig || vault.salt !== saved.salt) {
         return false;
       }
       const plainHtml = await decryptVaultWithRawKey(vault, b64ToBytes(saved.dk));
-      if (!plainHtml || plainHtml.length < 1000) return false;
+      if (!plainHtml || plainHtml.length < 500) return false;
       sessionStorage.setItem("kdan_cloud_updated_sig", expectedBuildSig);
       location.reload();
       return true;
@@ -224,9 +283,9 @@
       const btn = document.getElementById("btnSubmit");
       if (btn) {
         btn.disabled = true;
-        btn.textContent = "⚡ Đang khôi phục phiên bảo mật...";
+        btn.textContent = "⚡ Đang mở khóa phiên bảo mật...";
       }
-      const vault = await fetchVaultJson("");
+      const vault = await fetchVaultJson(targetTab, "");
       if (vault.salt !== saved.salt) {
         sessionStorage.removeItem(SESSION_KEY);
         if (btn) {
@@ -236,7 +295,7 @@
         return false;
       }
       const studioHtml = await decryptVaultWithRawKey(vault, b64ToBytes(saved.dk));
-      mountDecryptedStudioHtml(studioHtml);
+      await mountDecryptedStudioHtml(studioHtml);
       return true;
     } catch (_) {
       try { sessionStorage.removeItem(SESSION_KEY); } catch (_e) {}
@@ -300,7 +359,7 @@
     errBox.style.display = "none";
 
     try {
-      const vault = await fetchVaultJson("");
+      const vault = await fetchVaultJson(targetTab, "");
       const saltBytes = b64ToBytes(vault.salt);
       const rawKeyU8 = await deriveRawKeyBitsFromPin(pin, saltBytes, vault.iter || 250000);
       const studioHtml = await decryptVaultWithRawKey(vault, rawKeyU8);
@@ -313,7 +372,7 @@
         );
       } catch (_) {}
 
-      mountDecryptedStudioHtml(studioHtml);
+      await mountDecryptedStudioHtml(studioHtml);
     } catch (err) {
       const failInfo = recordFailedAttempt();
       if (failInfo.lockUntil > 0) {
